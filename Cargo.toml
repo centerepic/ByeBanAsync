@@ -1,0 +1,14 @@
+[package]
+name = "ByeBanAsync"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+colored = "3.0.0"
+winreg = "0.55.0"
+enable-ansi-support = "0.2.1"
+rand = "0.9.1"
+term_size = "0.3.2"
+
+[build-dependencies]
+embed-manifest = "1.4.0"
